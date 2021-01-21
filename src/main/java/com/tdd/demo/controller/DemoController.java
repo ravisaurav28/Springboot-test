@@ -10,6 +10,6 @@ public class DemoController {
 
     @GetMapping("/get")
     public String testMethod(){
-        return "<h1>hello<h1>";
+        return "hello";
     }
 }
